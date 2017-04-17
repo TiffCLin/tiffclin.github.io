@@ -1,0 +1,389 @@
+/*
+* COLOURS
+*
+* Green: #016e35;
+*/
+
+html
+{
+	overflow-x: hidden;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* Main Stuff */
+body
+{
+	font-family: Roboto, Helvetica Neue;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #404040;
+	letter-spacing: 2px;
+}
+
+/* Navigation */
+nav
+{
+	height: 40px;
+	display: block;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	font-size: 14px;
+	font-size: 16px;
+}
+
+nav ul
+{
+	float: right;
+	margin: 5px 20px;
+}
+
+.right 
+{
+	float: right;
+
+}
+nav li
+{
+	display: inline;
+	padding: 5px 10px;
+	background-color: #016e35;
+}
+
+nav a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #016e35;
+	background-color: #ffffff;
+}
+
+nav li:hover
+{
+	background-color: #ffffff;
+}
+
+/* Sections */
+header
+{
+	background-color: #016e35;
+	width: 150px;
+	height: 50px;
+	margin: 0 30px;
+	z-index: 5;
+	position: absolute;
+	color: #ffffff;
+	padding: 10px 20px;
+	text-align: right;
+	font-weight: 800;
+}
+
+section
+{
+	width: 100%;
+	max-height: none;
+	overflow: hidden;
+	-webkit-box-shadow: inset 0 -5px 5px -3px #484848;
+	-moz-box-shadow: inset 0 -5px 5px -3px #484848;
+	box-shadow: inset 0 -5px 5px -3px #484848 ;
+}
+
+#maintop
+{
+	background-image: url("images/bgmain1.jpg");
+	background-size: cover;
+	color: #ffffff;
+	font-family: Roboto;
+	min-height: 650px;
+}
+
+#maintop h2
+{
+	margin: 130px 75px;
+	width: 40%;
+	text-shadow: 2px 3px 3px #404040;
+	float: left;
+}
+
+#insttop
+{
+	background-image: url("images/bgmain1.jpg");
+	background-size: cover;
+	color: #ffffff;
+	font-family: Roboto;
+	min-height: 500px;
+}
+
+#insttop h2
+{
+	margin: 130px 75px;
+	width: 40%;
+	float: left;
+	text-shadow: 2px 3px 3px #404040;
+}
+
+#insttop ul
+{
+	font-size: 30px;
+}
+
+#insttop h3
+{
+	margin: 130px 0;
+	width: 40%;
+	font-weight: 500;
+	text-shadow: 2px 3px 3px #404040;
+	float: left;
+}
+
+.second
+{
+	background-image: url("images/second.jpg");
+	background-size: cover;
+	color: #ffffff;
+	text-shadow: 2px 3px 3px #404040;
+	min-height: 600px;
+}
+
+iframe.video
+{
+	margin-top: 150px;
+}
+
+div.column
+{
+	float: left;
+	width: 50%;
+	display: inline;
+	font-size: 17px;
+}
+
+#texthead
+{
+	background-image: url("images/bgmain1.jpg");
+	background-size: cover;
+}
+
+#texthead h1
+{
+	color: #ffffff;
+	text-shadow: 2px 3px 3px #404040;
+	margin: 150px 0;
+}
+
+#texthead h2
+{
+	color: #ffffff;
+	text-shadow: 2px 3px 3px #404040;
+	margin: 150px 0;
+	padding: 0 30px;
+	font-size: 42px;
+	text-align: center;
+}
+	
+#text
+{
+	max-height: none;
+}
+
+#text p:first-child
+{
+	font-size: 26px;
+	line-height: 1.2em;
+	letter-spacing: 1.5;
+	margin-top: 75px;
+}
+
+#text p
+{
+	font-size: 20px;
+	line-height: 1.2em;
+	margin: 30px 150px;
+}
+
+#text h3
+{
+	margin: 30px 125px;
+	font-size: 28px;
+}
+
+#text h4
+{
+	margin: 0 0 30px 125px;
+}
+/* Paragraph stuff */
+p
+{
+	margin: 80px 150px;
+	font-size: 32px;
+	letter-spacing: 2px;
+	font-weight: 400;
+	width: 75%;
+}
+
+p:last-child
+{
+	margin-bottom: 80px;
+}
+
+p.no_header::first-letter
+{
+	font-size: 52px;
+}
+
+p.no_header
+{
+	margin: 50px 75px;
+}
+
+h1
+{
+	margin: 50px 75px;
+	font-size: 72px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	line-height: 1.1em;
+	text-align: center;
+}
+
+h2
+{
+	margin: 50px 75px;
+	font-size: 38px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	line-height: 1em;
+}
+
+h3
+{
+	margin: 50px 0;
+	line-height: 1em;
+	letter-spacing: 2px;
+	font-size: 32px;
+}
+
+h4
+{
+	margin: 50px 75px;
+}
+
+b
+{
+	font-weight: 800;
+	background-color: #016e35;
+}
+
+/* Links */
+a
+{
+	color: #893b34;
+	text-decoration: none;
+}
+
+/* Box Slider - Institutions */
+ul.bxslider
+{
+	background-image: url("images/panelbg.jpg");
+	font-size: 28px;
+	line-height: 1.5em;
+	letter-spacing: 2;
+	color: #404040;
+	text-shadow: 2px 3px 3px #f0f0f0;
+	margin: 0;
+}
+
+.panel
+{
+	background-image: url("images/panelbg.jpg");
+	min-height: 500px;
+	max-height: 500px;
+}
+
+.panel .title
+{
+	width: 30%;
+	float: left;
+	vertical-align: middle;
+}
+
+.title img
+{
+	width: 300px;
+	margin: 50px 0 10px 75px;
+}
+
+.panel .content
+{
+	width: 60%;
+	float: left;
+	margin: 50px 0 0 60px;
+	padding: 0;
+}
+
+.panel .content p
+{
+	font-size: 30px;
+	margin: 20px 0;
+	line-height: 1em;
+	font-weight: 400;
+	width: 100%;
+}
+
+footer
+{
+	background-color: #404040;
+	min-height: 400px;
+	padding: 20px 30px; 
+}
+
+footer div.info
+{
+	width: 50%;
+	float: left;
+}
+
+footer div.form
+{
+	width: 50%;
+	float: left;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+footer div.form p:last-child
+{
+	margin: 0;
+}
+
+#FSCForm1
+{
+	font-family: Roboto;
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: #ffffff;
+	line-height: 1.2em;
+	font-weight: 300;
+}
+
+ul
+{
+	margin: 10px 0 0 30px;
+}
+
+li
+{
+	list-style-type: square;
+}
+
