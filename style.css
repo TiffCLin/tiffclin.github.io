@@ -26,7 +26,8 @@ p
 h2
 {
 	color: #3b3b3b;
-	font-size: 32px; 
+	font-size: 32px;
+	font-family: Lato; 
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
@@ -181,9 +182,10 @@ header
 	padding: 20% 0;
 	color: #ffffff;
 	opacity: 1.0;
-	background: url('about2.jpg') #000000;
+	background: url('about2.jpg') #000000 no-repeat;
+	background-size: cover;
 	text-transform: uppercase;
-	min-height: 35vh;
+	min-height: 25vh;
 }
 
 header h1
@@ -213,6 +215,11 @@ header .logo
 {
 	background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
 }*/
+
+header li
+{
+	display: inline;
+}
 
 
 /* SECTION: summary */
