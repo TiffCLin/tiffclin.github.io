@@ -219,7 +219,11 @@ header .logo
 header li
 {
 	display: inline;
+	width: 50px;
+	float: left;
+	list-style-type: none;
 }
+
 
 
 /* SECTION: summary */
