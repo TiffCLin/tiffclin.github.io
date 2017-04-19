@@ -220,8 +220,12 @@ header li
 {
 	display: inline;
 	width: 50px;
-	float: left;
 	list-style-type: none;
+}
+
+header img
+{
+	width: 25px;
 }
 
 
