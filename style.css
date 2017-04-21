@@ -142,7 +142,7 @@ nav li a:focus:before
 
 /* SECTION GENERAL */
 section {
-	padding: 10% 100px;
+	padding: 10% 150px;
 }
 
 section a
@@ -220,12 +220,8 @@ header li
 {
 	display: inline;
 	width: 50px;
+	float: left;
 	list-style-type: none;
-}
-
-header img
-{
-	width: 25px;
 }
 
 
