@@ -220,10 +220,13 @@ header li
 {
 	display: inline;
 	width: 50px;
-	float: left;
 	list-style-type: none;
 }
 
+header img
+{
+	width: 25px;
+}
 
 /* SECTION: summary */
 #summary
@@ -249,159 +252,10 @@ header li
 	opacity: 1.0;
 }
 
-/* SECTION: program */
-#program p
-{
-	font-size: 22px;
-	margin-top: 30px;
-}
 
-#program h3 ~ p
-{
-	margin: 20px;
-	font-size: 22px;
-	letter-spacing: 1px;
-}
-
-#program table
-{
-	padding: 22px;
-	width: 100%;
-	border: 0;
-	font-size: 20px;
-	letter-spacing: 1px;
-	font-family: "EB Garamond", Garamond;
-	table-layout: fixed;
-}
-
-#program td:first-child
-{
-	font-weight: bold;
-}
-
-#program td
-{
-	padding: 5px 20px;
-}
-
-/* SECTION: apply */
-#apply
-{
-	color: #000000;
-	opacity: 1.0;
-}
 
 section ol li
 {
 	margin: 5px 0px 5px 50px;
 }
 
-/* SECTION: contact */
-#contact
-{
-	color: #000000;
-	opacity: 0.9;
-}
-
-/* MISC */
-.parallax-window {
-    background: transparent;
-}
-
-.hide
-{
-	display: none;
-	overflow: visible; 
-}
-
-.image {
-	min-height: 50vh;
-}
-
-.toggle {
-	background: #ffffff;
-	display: block;
-	position: relative;
-	overflow: visible;
-	clear: both;
-}
-
-/* PAGE: people */
-
-#people .image
-{
-	min-height: 35vh;
-}
-
-/* SECTION: cohort */
-#cohort div.profile img {
-	margin: 0 50px 50px 0px;
-	width: 180px;
-	height: 200px;
-	float: left;
-}
-
-#cohort div.profile {
-	clear: both;
-	margin: 90px 0;
-	height: 100%;
-}
-
-#cohort div.profile h4 {
-	font-size: 30px;
-	margin: 20px 0 20px 0;
-}
-
-#cohort div.profile p {
-	font-family: "EB Garamond", Garamond;
-	font-size: 20px;
-	margin: 0;
-}
-
-#people #cohort ul, ul.cohortlist{
-	list-style-type: none;
-	-webkit-column-count: 3;
-	-moz-column-count: 3; 
-	column-count: 3; 
-	column-width: 200px;
-}
-
-#people #cohort ul li, ul.cohortlist li {
-	margin: 5px 0 5px 30px;
-	font-family: "EB Garamond", Garamond;
-	font-size: 20px;
-	display: block;
-}
-
-
-/* SECTION: staff */
-
-#staff ul li, #advisoryaff ul li {
-	margin: 5px 0 5px 50px;
-	font-size: 20px;
-}
-
-#staff ul li i, #advisoryaff ul li i {
-	font-family: "EB Garamond", Garamond;
-}
-
-/* PAGE: class */
-#schedule table {
-	width: 100%;
-	border: 0;
-	font-size: 20px;
-	letter-spacing: 1px;
-	font-family: "EB Garamond", Garamond;
-	table-layout: fixed;
-}
-
-#schedule td:first-child
-{
-	font-weight: bold;
-	width: 15%;
-}
-
-#schedule td
-{
-	padding: 10px 10px;
-}
